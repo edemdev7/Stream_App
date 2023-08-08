@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste des diffusions</title>
+</head>
+<body>
+    <h1>Liste des diffusions disponibles :</h1>
+    <ul>
+        {% for diffusion in diffusions %}
+        <li><a href="{% url 'detail_diffusion' diffusion.id %}">{{ diffusion.titre }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
