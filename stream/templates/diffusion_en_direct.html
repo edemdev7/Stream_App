@@ -1,0 +1,62 @@
+<!-- diffusion_en_direct.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diffusion en direct</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        video {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/janus-gateway/0.11.4/janus.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Diffusion en direct</h1>
+
+        <video id="remoteVideo" autoplay></video>
+
+        <button id="startAudio">Démarrer l'audio</button>
+        <button id="startVideo">Démarrer la vidéo</button>
+    </div>
+
+    <script>
+        // Code JavaScript pour gérer la diffusion en direct
+        // Utilisez les scripts Janus Gateway et WebRTC pour cela
+    </script>
+</body>
+</html>

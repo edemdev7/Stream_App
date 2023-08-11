@@ -5,7 +5,7 @@ from Broadcast import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.diffusion, name='home'),
+    path('', views.diffusion_en_direct, name='home'),
     path('diffusion/<int:diffusion_id>/', views.detail_diffusion, name='detail_diffusion'),
 ]
 
